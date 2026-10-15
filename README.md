@@ -1,6 +1,6 @@
 # Lihle Naholo — Digital CV
 
-A responsive, single-page digital CV for Lihle Naholo, built with semantic HTML, CSS, and a small amount of JavaScript. The design is based on the CV details provided by Lihle and highlights their studies, leadership, skills, and GitHub project.
+A responsive, single-page digital CV for Lihle Naholo, built with semantic HTML, CSS, and a small amount of JavaScript. It uses a bright, Apple-inspired system-font style, technology logos, and the full CV details provided by Lihle, including education, leadership, skills, languages, and the MobileTrade GitHub project.
 
 ## Run locally
 
