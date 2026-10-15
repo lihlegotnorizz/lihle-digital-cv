@@ -101,6 +101,21 @@ h1, h2, h3, p { margin-top: 0; }
 .timeline-item h3 { font-size: 17px; letter-spacing: -.04em; margin: 0 0 6px; }.timeline-item h3 span { font-size: 12px; font-weight: 500; color: var(--muted); }
 .timeline-place, .timeline-description { color: var(--muted); font-size: 11px; line-height: 1.8; margin-bottom: 10px; }
 .detail-list { margin: 12px 0 0; padding-left: 17px; color: var(--muted); font-size: 11px; line-height: 1.9; }
+.education-focus {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 17px 0;
+}
+.education-focus article {
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: linear-gradient(145deg, #fff, #f7f9fd);
+}
+.education-focus h4 { margin: 0 0 6px; font-size: 10px; letter-spacing: -.02em; }
+.education-focus p { color: var(--muted); font-size: 10px; line-height: 1.65; margin: 0; }
+.coursework strong { color: var(--text); font-weight: 700; }
 
 .projects { border-top: 1px solid var(--line); }
 .projects-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 46px; }
@@ -265,6 +280,7 @@ body { background: var(--bg); }
   .stats-row > div:last-child { border-bottom: 0; }.stats-row strong { font-size: 28px; }
   .timeline { margin: 35px 0 0; }.timeline-item { padding-left: 22px; }
   .timeline-meta { font-size: 8px; }.timeline-item h3 { font-size: 15px; }.timeline-item h3 span { font-size: 11px; }
+  .education-focus { grid-template-columns: 1fr; }
   .projects-heading { display: block; margin-bottom: 28px; }.projects-heading .text-link { margin-top: 20px; }
   .project-card { grid-template-columns: 1fr; }.project-visual { min-height: 330px; }.project-info { padding: 30px 23px 33px; }.project-info h3 { font-size: 30px; }
   .skills-grid { grid-template-columns: 1fr; margin-top: 30px; }.skill-panel { min-height: 0; padding: 23px; }
